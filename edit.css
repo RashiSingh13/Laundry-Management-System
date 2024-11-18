@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+        height: 100vh;
+        background-image: url(./Assets/download.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgb(221,166,188);
+        background: linear-gradient(0deg, rgba(221,166,188,1) 0%, rgba(222,171,177,1) 40%, rgba(224,178,158,1) 61%);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+h1 {
+    margin-bottom: 20px;
+    color: white;
+        font-size: 2rem;
+        text-align: center;
+}
+.success-message {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+form {
+
+    display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background-color: #fff;
+        padding: 20px;
+        margin-top: 20px;
+}
+
+label {
+    text-align: left;
+    /* font-weight: bold; */
+
+    /* text-align: center; */
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+input {
+    padding: 10px;
+    /* font-size: 16px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+
+}
+button {
+    align-self: center;
+    padding: 10px 15px;
+    /* font-size: 16px; */
+    cursor: pointer;
+    width: 50%;
+    /* padding: 8px 15px; */
+    margin: 10px 0;
+    background-color: rgb(221,166,188);
+    color: white;
+    border: none;
+    text-align: center;
+    /* border-radius: 4px; */
+}
+button:hover {
+    cursor: pointer;
+    background-color:rgb(166, 44, 93);
+}
+
+.back-button {
+    text-align: center;
+    text-decoration: underline;
+}
+.back-button a:hover {
+    text-decoration: underline;
+    color:rgb(166, 44, 93);
+}
+
+

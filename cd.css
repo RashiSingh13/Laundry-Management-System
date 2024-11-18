@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./Assets/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+    h1{
+        margin-left: 35%;
+        margin-top: 2em;
+    }
+    
+    h1, h2, h3 {
+        text-decoration: underline;
+        color: rgb(174, 32, 89) ;
+        margin-bottom: 10px;
+    }
+    
+    a {
+        /* color: rgb(221,166,188); */
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Table Styling */
+    table {
+        border: solid 2px black;
+        width: 90%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #2a0808;
+    }
+    
+    th {
+        background-color: rgb(221,166,188);
+        color: white;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    td a {
+        color: #007BFF;
+    }
+    
+    td a:hover {
+        color: #0056b3;
+    }
+    
+    button, a {
+        display: inline-block;
+        padding: 8px 15px;
+        margin: 10px 0;
+        background-color: rgb(221,166,188);
+        color: white;
+        border: none;
+        text-align: center;
+        border-radius: 4px;
+    }
+    a{
+        margin-left: 40%;
+    
+    }
+    
+    button:hover, a:hover {
+        background-color:rgb(166, 44, 93);
+    }
+    
+    button:disabled, a:disabled {
+        background-color: #c8c8c8;
+        cursor: not-allowed;
+    }
+    
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    form input, form select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    
+    .container {
+        width: 100%;
+        padding-left: 10%;
+        
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
